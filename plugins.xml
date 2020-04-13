@@ -2318,7 +2318,7 @@
 			<email>pkp.contact@sfu.ca</email>
 		</maintainer>
 		<release date="2020-03-10" version="1.0.0.0" md5="dab150291c53b875fc33a8a0562e105b">
-			<package>https://github.com/pkp/returningAuthorScreening/releases/download/v1.0.0-0/returningAuthorScreening-v1.0.0-0.tar.gz</package>
+			<package>https://github.com/pkp/WRONG_URL/releases/download/v1.0.0-0/returningAuthorScreening-v1.0.0-0.tar.gz</package>
 			<compatibility application="ops">
 				<version>3.2.0.0</version>
 				<version>3.2.0.1</version>
@@ -2341,7 +2341,7 @@
 			<institution>The Federation of Finnish Learned Societies</institution>
 			<email>ajnyga@gmail.com</email>
 		</maintainer>
-		<release date="2020-03-29" version="1.0.0.0" md5="03bf5c0dc995bea17f8c1a4f4fdd3425">
+		<release date="2020-03-29" version="1.0.0.0" md5="03bf5c0dc995bede2f8c1a4f4fdd3425">
 			<package>https://github.com/ajnyga/openGraph/releases/download/1.0.0.0/openGraph.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.2.0.0</version>
