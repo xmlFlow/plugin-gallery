@@ -1,0 +1,8 @@
+before_install:
+  # install dependencies
+  - travis_retry sudo apt-get update -qq
+  # install libxml2-utils which contains xmllint that we will use to validate XML against schema)
+  - travis_retry sudo apt-get install libxml2-utils
+
+script:
+  - xmllint --schema http://pkp.sfu.ca/ojs/xml/plugins.xsd ./plugins.xml --noout
