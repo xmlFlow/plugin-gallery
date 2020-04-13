@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# The file out/packages-md5sums.txt contains a list of all plugins with their MD5 sums, in the format:
+# release_url:md5sum
+# This script goes through all the files in the list, downloads the release from release_url,
+# calculates the MD5 sum, and compare it to the md5 hash in plugins.xml 
 files_with_errors_count=0
 
 while IFS=':' read -r expected_mdsum url

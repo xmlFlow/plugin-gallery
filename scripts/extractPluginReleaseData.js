@@ -1,24 +1,22 @@
 const { readFile, writeFile } = require('./helpers')
 const xml2js = require('xml2js')
 const parser = new xml2js.Parser()
-const https = require('https')
-const crypto = require('crypto')
-
-const { exec } = require('child_process')
 
 const args = {
-  filePath: process.argv[2] || `${__dirname}/../plugins.xml`,
-  schemaLocation: process.argv[3] || 'http://pkp.sfu.ca/ojs/xml/plugins.xsd'
+  filePath: process.argv[2] || `${__dirname}/../plugins.xml`
 }
 
-const validateXml = async filePath => {
+/**
+ * The function loops through the plugins and their releases and creates a text file containing a list
+ * of the releases and their MD5 sums This is then consument by the bash script "checkMD5sum" that
+ * downloads all the releases and compares their MD5 sums with the content of the generated file
+ *
+ * @param {string} filePath the path to the file to parse and extract the releases info from
+ */
+const extractData = async filePath => {
   const xml = await readFile(filePath)
   try {
     const result = await parser.parseStringPromise(xml)
-
-    let failures = 0
-    const packages = []
-    const md5Sums = []
 
     let packagesWithSums = ''
 
@@ -30,18 +28,14 @@ const validateXml = async filePath => {
 
         const expectedMd5Sum = release.$.md5
         const version = release.$.version
-        packages.push(release.package[0])
-        md5Sums.push(expectedMd5Sum)
 
         packagesWithSums += expectedMd5Sum + ':' + release.package[0] + '\n'
       })
     })
-    writeFile(__dirname + '/../out/packages.txt', packages.join('\r\n'))
-    writeFile(__dirname + '/../out/md5sums.txt', md5Sums.join('\r\n'))
     writeFile(__dirname + '/../out/packages-md5sums.txt', packagesWithSums)
   } catch (err) {
     throw err
   }
 }
 
-validateXml(args.filePath)
+extractData(args.filePath)
