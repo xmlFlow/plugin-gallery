@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugins xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
-	<plugin category="generic" product="hypothesis">
+<pluginds xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca plugins.xsd">
+	<plugind category="generic" product="hypothesis">
 		<name locale="en_US">Hypothes.is</name>
 		<homepage>https://github.com/asmecher/hypothesis</homepage>
 		<summary locale="en_US">This plugin integrates the Hypothes.is annotation tool into articles.</summary>
@@ -58,8 +58,8 @@
 			<certification type="official"/>
 			<description>Release of the Hypothes.is plugin for OJS/OPS 3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="shibboleth">
+	</plugind>
+	<plugind category="generic" product="shibboleth">
 		<name locale="en_US">Shibboleth</name>
 		<homepage>https://github.com/pkp/shibboleth</homepage>
 		<summary locale="en_US">This plugin adds Shibboleth support.</summary>
@@ -94,8 +94,8 @@
 			<certification type="official"/>
 			<description>Release of the Shibboleth plugin for OJS 3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="translator">
+	</plugind>
+	<plugind category="generic" product="translator">
 		<name locale="en_US">Translator</name>
 		<homepage>https://github.com/pkp/translator</homepage>
 		<summary locale="en_US">This plugin permits translations to be updated and edited.</summary>
@@ -164,8 +164,8 @@
 			<certification type="official"/>
 			<description>Release of the Translator plugin for OJS/OMP 3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="backup">
+	</plugind>
+	<plugind category="generic" product="backup">
 		<name locale="en_US">Backup</name>
 		<homepage>https://github.com/asmecher/backup</homepage>
 		<summary locale="en_US">This plugin permits backups to be downloaded from within OJS.</summary>
@@ -256,8 +256,8 @@
 			<certification type="official"/>
 			<description>Adds new translations to the 2.0.2 release.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="plagiarism">
+	</plugind>
+	<plugind category="generic" product="plagiarism">
 		<name locale="en_US">iThenticate</name>
 		<homepage>https://github.com/asmecher/plagiarism</homepage>
 		<summary locale="en_US">This plugin permits automatic submission of uploaded content to the iThenticate service for plagiarism checking.</summary>
@@ -319,8 +319,8 @@
 			<certification type="official"/>
 			<description>Release of the iThenticate plugin for OJS/OMP 3.2.0.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="coins">
+	</plugind>
+	<plugind category="generic" product="coins">
 		<name locale="en_US">COinS</name>
 		<homepage>https://github.com/pkp/coins</homepage>
 		<summary locale="en_US">This plugin embeds OpenURL COinS in OJS articles.</summary>
@@ -366,8 +366,8 @@
 			<certification type="official"/>
 			<description>Release 1.0.3-0 of the COinS plugin for OJS 3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="importexport" product="quickSubmit">
+	</plugind>
+	<plugind category="importexport" product="quickSubmit">
 		<name locale="en_US">QuickSubmit</name>
 		<homepage>https://github.com/pkp/quickSubmit</homepage>
 		<summary locale="en_US">The QuickSubmit plugin permits Journal Managers to quickly enter submissions through the OJS website, bypassing the editorial workflow.</summary>
@@ -470,8 +470,8 @@
 			<certification type="official"/>
 			<description>Bugfix release of the QuickSubmit plugin for OJS 3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="allowedUploads">
+	</plugind>
+	<plugind category="generic" product="allowedUploads">
 		<name locale="en_US">Allowed Uploads</name>
 		<name locale="fi_FI">Sallitut tiedostomuodot</name>
 		<homepage>https://github.com/ajnyga/allowedUploads</homepage>
@@ -540,8 +540,8 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="piwik">
+	</plugind>
+	<plugind category="generic" product="piwik">
 		<name locale="en_US">Piwik</name>
 		<homepage>https://github.com/pkp/piwik</homepage>
 		<summary locale="en_US">Permits usage statistics tracking using Piwik.</summary>
@@ -643,8 +643,8 @@
 			<certification type="official"/>
 			<description>Piwik release for OJS/OMP 3.2.0</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="shariff">
+	</plugind>
+	<plugind category="generic" product="shariff">
 		<name locale="en_US">Shariff Plugin</name>
 		<homepage>https://github.com/ojsde/shariff</homepage>
 		<summary locale="en_US">This plugin integrates the shariff solution for social media buttons in OJS and OMP.</summary>
@@ -683,8 +683,8 @@
 			</compatibility>
 			<certification type="partner"/><description>Release of the Shariff plugin for OJS 3.0.0.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="addThis">
+	</plugind>
+	<plugind category="generic" product="addThis">
 		<name locale="en_US">AddThis</name>
 		<homepage>https://github.com/pkp/addThis</homepage>
 		<summary locale="en_US">Permits social media sharing of published content using AddThis.</summary>
@@ -763,8 +763,8 @@
 			<certification type="official"/>
 			<description>AddThis for OJS/OMP 3.2.0.</description>
 		</release>
-	</plugin>
-	<plugin category="importexport" product="copernicus">
+	</plugind>
+	<plugind category="importexport" product="copernicus">
 		<name locale="en_US">OJS to Copernicus Citation Index xml export plugin</name>
 		<homepage>https://github.com/a-vodka/ojs_copernicus_export_plugin/</homepage>
 		<summary locale="en_US">Allows to export article metadata in Copernicus Index in xml format</summary>
@@ -805,8 +805,8 @@
 			<certification type="official"/>
 			<description>This release support all necessary items to export issues to Copernicus Citation Index using xml</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="subscriptionSSO">
+	</plugind>
+	<plugind category="generic" product="subscriptionSSO">
 		<name locale="en_US">Subscription SSO</name>
 		<homepage>https://github.com/asmecher/subscriptionSSO</homepage>
 		<summary locale="en_US">This plugin permits delegation of OJS subscription checks to a third-party web service.</summary>
@@ -852,8 +852,8 @@
 			<certification type="official"/>
 			<description>Initial release of the SubscriptionSSO plugin for OJS 3.2.0.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="funding">
+	</plugind>
+	<plugind category="generic" product="funding">
 		<name locale="en_US">Funding</name>
 		<homepage>https://github.com/ajnyga/funding/</homepage>
 		<summary locale="en_US">Adds submission funding data using the Crossref funders registry.</summary>
@@ -921,8 +921,8 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="customHeader">
+	</plugind>
+	<plugind category="generic" product="customHeader">
 		<name locale="en_US">Custom Header Plugin</name>
 		<homepage>https://github.com/asmecher/customHeader/</homepage>
 		<summary locale="en_US">Permits the addition of custom headers to the website.</summary>
@@ -992,8 +992,8 @@
 			<certification type="official"/>
 			<description>Release of the custom headers plugin for OJS/OMP/OPS 3.2.0.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="jatsTemplate">
+	</plugind>
+	<plugind category="generic" product="jatsTemplate">
 		<name locale="en_US">JATS Template Plugin</name>
 		<homepage>https://github.com/pkp/jatsTemplate/</homepage>
 		<summary locale="en_US">Permits the automatic generation of a simple (incomplete) JATS XML document.</summary>
@@ -1044,8 +1044,8 @@
 			<certification type="official"/>
 			<description>Compatibility release of the JATS Template plugin for OJS 3.2</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="sword">
+	</plugind>
+	<plugind category="generic" product="sword">
 		<name locale="en_US">SWORD Deposit Plugin</name>
 		<homepage>https://github.com/asmecher/sword/</homepage>
 		<summary locale="en_US">Permits the use of the SWORD protocol to deposit documents from OJS into other systems.</summary>
@@ -1115,8 +1115,8 @@
 			<certification type="official"/>
 			<description>Maintenance release of the SWORD plugin.</description>
 		</release>
-	</plugin>
-	<plugin category="oaiMetadataFormats" product="oaiJats">
+	</plugind>
+	<plugind category="oaiMetadataFormats" product="oaiJats">
 		<name locale="en_US">OAI JATS Plugin</name>
 		<homepage>https://github.com/pkp/oaiJats/</homepage>
 		<summary locale="en_US">Permits the delivery of JATS XML via the OAI interface.</summary>
@@ -1167,8 +1167,8 @@
 			<certification type="official"/>
 			<description>Compatibility release of the JATS Template plugin for OJS 3.2</description>
 		</release>
-	</plugin>
-	<plugin category="blocks" product="keywordCloud">
+	</plugind>
+	<plugind category="blocks" product="keywordCloud">
 		<name locale="en_US">Keyword Cloud Plugin</name>
 		<homepage>https://github.com/lepidus/ojs3-keywordcloud-plugin</homepage>
 		<summary locale="en_US">A block plugin to provide a tag cloud of article keywords.</summary>
@@ -1211,8 +1211,8 @@
 			<certification type="reviewed"/>
 			<description>Updated release of the Keyword Cloud plugin for OJS 3.2 support (new maintainer)</description>
 		</release>
-	</plugin>
-	<plugin category="themes" product="bootstrap3">
+	</plugind>
+	<plugind category="themes" product="bootstrap3">
 		<name locale="en_US">Bootstrap3</name>
 		<homepage>https://github.com/NateWr/bootstrap3</homepage>
 		<summary locale="en_US">A template Bootstrap3 theme for OJS 3.1.1+.</summary>
@@ -1292,8 +1292,8 @@
 			<certification type="official"/>
 			<description>This release makes the theme compatible with OJS v3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="themes" product="classic">
+	</plugind>
+	<plugind category="themes" product="classic">
 		<name locale="en_US">Classic</name>
 		<homepage>https://github.com/pkp/classic</homepage>
 		<summary locale="en_US">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
@@ -1353,8 +1353,8 @@
 			<certification type="official"/>
 			<description>Bugfix release.</description>
 		</release>
-	</plugin>
-	<plugin category="themes" product="healthSciences">
+	</plugind>
+	<plugind category="themes" product="healthSciences">
 		<name locale="en_US">Health Sciences</name>
 		<homepage>https://github.com/pkp/healthSciences</homepage>
 		<summary locale="en_US">An official theme designed to maximize legibility and content clarity.</summary>
@@ -1436,8 +1436,8 @@
 			<certification type="official"/>
 			<description>Bugfix release.</description>
 		</release>
-	</plugin>
-	<plugin category="themes" product="defaultManuscript">
+	</plugind>
+	<plugind category="themes" product="defaultManuscript">
 		<name locale="en_US">Manuscript (Default child theme)</name>
 		<homepage>https://github.com/NateWr/defaultManuscript</homepage>
 		<summary locale="en_US">A clean, simple theme with a boxed layout that mimics a paper document.</summary>
@@ -1490,8 +1490,8 @@
 			<certification type="official"/>
 			<description>This release makes the theme compatible with OJS v3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="texture">
+	</plugind>
+	<plugind category="generic" product="texture">
 		<name locale="en_US">Texture plugin</name>
 		<homepage>https://github.com/asmecher/texture</homepage>
 		<summary locale="en_US">Integrates the Substance Texture JATS XML Editor with OJS.</summary>
@@ -1570,8 +1570,8 @@
 			<certification type="official"/>
 			<description>This release adapts the plugin for compatibility with OJS 3.2 and support for importing and exporting the DAR format.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="crossrefReferenceLinking">
+	</plugind>
+	<plugind category="generic" product="crossrefReferenceLinking">
 		<name locale="en_US">Crossref Reference Linking Plugin</name>
 		<homepage>https://github.com/pkp/crossrefReferenceLinking</homepage>
 		<summary locale="en_US">Automatically add the extracted article references to the DOI registration with Crossref</summary>
@@ -1594,8 +1594,8 @@
 			<certification type="official"/>
 			<description>This is the initial release of the plugin.</description>
 		</release>
-	</plugin>
-	<plugin category="themes" product="immersion">
+	</plugind>
+	<plugind category="themes" product="immersion">
 		<name locale="en_US">Immersion</name>
 		<homepage>https://github.com/pkp/immersion</homepage>
 		<summary locale="en_US">An official theme focused on full-page visuals, large typefaces, and bold color blocks.</summary>
@@ -1676,8 +1676,8 @@
 			<certification type="official"/>
 			<description>Bugfix release.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="orcidProfile">
+	</plugind>
+	<plugind category="generic" product="orcidProfile">
 		<name locale="en_US">ORCiD Profile</name>
 		<homepage>https://github.com/pkp/orcidProfile</homepage>
 		<summary locale="en_US">ORCiD integration for users and authors</summary>
@@ -1753,8 +1753,8 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS/OPS 3.2.0.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="defaultTranslation">
+	</plugind>
+	<plugind category="generic" product="defaultTranslation">
 		<name locale="en_US">Default Translation</name>
 		<homepage>https://github.com/pkp/defaultTranslation</homepage>
 		<summary locale="en_US">Make OJS fall back on English when elements of the software translation are missing.</summary>
@@ -1796,8 +1796,8 @@
 			<certification type="official"/>
 			<description>Initial release for OJS/OMP/OPS 3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="paperbuzz">
+	</plugind>
+	<plugind category="generic" product="paperbuzz">
 		<name locale="en_US">Paperbuzz</name>
 		<homepage>https://github.com/pkp/paperbuzz</homepage>
 		<summary locale="en_US">Display free altmetrics based on open data from Paperbuzz.</summary>
@@ -1819,8 +1819,8 @@
 			<certification type="official"/>
 			<description>Initial release.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="openAIRE">
+	</plugind>
+	<plugind category="generic" product="openAIRE">
 		<name locale="en_US">OpenAIRE Plugin 2.0</name>
 		<homepage>https://github.com/ojsde/openAIRE</homepage>
 		<summary locale="en_US">This plugin adds a new OAI-PMH metadata format to Open Journal Systems that complements the OpenAIRE Guidelines for Literature Repository Managers v4.</summary>
@@ -1882,8 +1882,8 @@
 			<certification type="reviewed"/>
 			<description>Update for compatibility with v3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="lensGalleyBits">
+	</plugind>
+	<plugind category="generic" product="lensGalleyBits">
 		<name locale="en_US">Lens Viewer for Monographs and Journal Articles</name>
 		<homepage>https://github.com/withanage/lensGalleyBits</homepage>
 		<summary locale="en_US">An extended version of the Lens Viewer that supports books and articles.</summary>
@@ -1905,8 +1905,8 @@
 			<certification type="partner"/>
 			<description>Initial release.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="reviewerCredits">
+	</plugind>
+	<plugind category="generic" product="reviewerCredits">
 		<name locale="en_US">ReviewerCredits Plugin</name>
 		<homepage>https://github.com/4Science/reviewercredits-ojs</homepage>
 		<summary locale="en_US">This plugin enable the integration with ReviewerCredits (www.reviewercredits.com).</summary>
@@ -1925,8 +1925,8 @@
 			<certification type="partner"/>
 			<description>Plugin to enable the integration with ReviewerCredits. First release.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="plumAnalytics">
+	</plugind>
+	<plugind category="generic" product="plumAnalytics">
 		<name locale="en_US">Plum Analytics Artifact Widget</name>
 		<homepage>https://github.com/ulsdevteam/ojs-plum-plugin</homepage>
 		<summary locale="en_US">This plugin integrates Plum Analytics' Artifact Widget.</summary>
@@ -1949,8 +1949,8 @@
 			<certification type="partner"/>
 			<description>Release of the Plum Analytics plugin for OJS 3.1.1/3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="sushiLite">
+	</plugind>
+	<plugind category="generic" product="sushiLite">
 		<name locale="en_US">SUSHI-Lite</name>
 		<homepage>https://github.com/ulsdevteam/ojs-sushiLite-plugin</homepage>
 		<summary locale="en_US">This plugin adds SUSHI-Lite (draft) support.</summary>
@@ -1973,8 +1973,8 @@
 			<certification type="partner"/>
 			<description>Release of the SUSHI-Lite plugin for OJS 3.1.1/3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="betterPassword">
+	</plugind>
+	<plugind category="generic" product="betterPassword">
 		<name locale="en_US">Better Password</name>
 		<homepage>https://github.com/ulsdevteam/pkp-betterPassword</homepage>
 		<summary locale="en_US">This plugin adds user restrictions when selecting passwords.</summary>
@@ -2003,8 +2003,8 @@
 			<certification type="partner"/>
 			<description>Release of the Better Password plugin for OJS/OMP 3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="akismet">
+	</plugind>
+	<plugind category="generic" product="akismet">
 		<name locale="en_US">Akismet</name>
 		<homepage>https://github.com/ulsdevteam/pkp-akismet</homepage>
 		<summary locale="en_US">This plugin integrates the Akismet anti-spam service.</summary>
@@ -2034,8 +2034,8 @@
 			<certification type="partner"/>
 			<description>Release of the Akismet plugin for OJS 3.1.1 and OJS/OMP 3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="formHoneypot">
+	</plugind>
+	<plugind category="generic" product="formHoneypot">
 		<name locale="en_US">Form Honeypot</name>
 		<homepage>https://github.com/ulsdevteam/pkp-formHoneypot</homepage>
 		<summary locale="en_US">This plugin adds a honeypot to user registration.</summary>
@@ -2058,8 +2058,8 @@
 			<certification type="partner"/>
 			<description>Release of the Form Honeypot plugin for OJS 3.1.1/3.1.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="authorRequirements">
+	</plugind>
+	<plugind category="generic" product="authorRequirements">
 		<name locale="en_US">Author Requirements</name>
 		<homepage>https://github.com/ewhanson/authorRequirements</homepage>
 		<summary locale="en_US">Make certain author fields optional.</summary>
@@ -2103,8 +2103,8 @@
 			<certification type="partner"/>
 			<description>Release of the authorRequirements plugin for OJS/OMP 3.2.0</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="registrationNotification">
+	</plugind>
+	<plugind category="generic" product="registrationNotification">
 		<name locale="en_US">Registration Notification</name>
 		<homepage>https://github.com/pkp/registrationNotification</homepage>
 		<summary locale="en_US">Sends an email notification to a configurable list of emails whenever a new user is registered.</summary>
@@ -2154,8 +2154,8 @@
 			<certification type="official"/>
 			<description>Registration Notification Plugin v2.0.0.1 (Compatible with OJS/OMP 3.1.2).</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="controlPublicFiles">
+	</plugind>
+	<plugind category="generic" product="controlPublicFiles">
 		<name locale="en_US">Control Public Files</name>
 		<homepage>https://github.com/pkp/controlPublicFiles</homepage>
 		<summary locale="en_US">Limit who can upload public files and what kind of files they can upload.</summary>
@@ -2188,8 +2188,8 @@
 			<certification type="official"/>
 			<description>Initial release for OJS/OMP v3.2.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="textEditorExtras">
+	</plugind>
+	<plugind category="generic" product="textEditorExtras">
 		<name locale="en_US">Text Editor Extras</name>
 		<homepage>https://github.com/pkp/textEditorExtras</homepage>
 		<summary locale="en_US">Add controls to the rich text editor to upload images, manipulate the HTML code, and add tables.</summary>
@@ -2241,8 +2241,8 @@
 			<certification type="official"/>
 			<description>This update fixes a bug that prevented image uploads from working in some configurations.</description>
 		</release>
-	</plugin>
-	<plugin category="blocks" product="twitterBlock">
+	</plugind>
+	<plugind category="blocks" product="twitterBlock">
 		<name locale="en_US">Twitter Block Plugin</name>
 		<homepage>https://github.com/RBoelter/ojs3-twitter-sidebar</homepage>
 		<summary locale="en_US">This plugin adds a block to display a Twitter feed in the sidebar.</summary>
@@ -2263,8 +2263,8 @@
 			<certification type="reviewed"/>
 			<description>Initial release</description>
 		</release>
-	</plugin>
-	<plugin category="blocks" product="announcementsBlock">
+	</plugind>
+	<plugind category="blocks" product="announcementsBlock">
 		<name locale="en_US">Announcements Block</name>
 		<homepage>https://github.com/RBoelter/announcementsBlock</homepage>
 		<summary locale="en_US">This plugin adds a block to display announcements in the sidebar.</summary>
@@ -2285,8 +2285,8 @@
 			<certification type="reviewed"/>
 			<description>Initial release</description>
 		</release>
-	</plugin>
-	<plugin category="gateways" product="swordServer">
+	</plugind>
+	<plugind category="gateways" product="swordServer">
 		<name locale="en_US">Sword Server Plugin</name>
 		<homepage>https://github.com/quoideneuf/swordServer</homepage>
 		<summary locale="en_US">Permits the use of the SWORD protocol to receive deposits from other applications.</summary>
@@ -2306,8 +2306,8 @@
 			<certification type="official"/>
 			<description>Initial release</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="returningAuthorScreening">
+	</plugind>
+	<plugind category="generic" product="returningAuthorScreening">
 		<name locale="en_US">Returning Author Screening Plugin</name>
 		<homepage>https://github.com/pkp/returningAuthorScreening</homepage>
 		<summary locale="en_US">Permits authors who already have at least one published submission to self-publish subsequent submissions.</summary>
@@ -2327,8 +2327,8 @@
 			<certification type="official"/>
 			<description>Initial release</description>
 		</release>
-	</plugin>
-    <plugin category="generic" product="openGraph">
+	</plugind>
+    <plugind category="generic" product="openGraph">
 		<name locale="en_US">Open Graph Plugin</name>
 		<name locale="fi_FI">Open Graph -lisäosa</name>
 		<homepage>https://github.com/ajnyga/openGraph</homepage>
@@ -2355,8 +2355,8 @@
 			<certification type="reviewed"/>
 			<description>Initial release of the Open Graph Plugin.</description>
 		</release>
-	</plugin>
-	<plugin category="generic" product="publons">
+	</plugind>
+	<plugind category="generic" product="publons">
 		<name locale="en_US">Publons Reviewer Recognition Plugin</name>
 		<homepage>https://github.com/publons/ojs_3_plugin/</homepage>
 		<summary locale="en_US">This plugin enables integration with Publons Reviewer Recognition Service.</summary>
@@ -2384,5 +2384,5 @@
 			<certification type="partner"/>
 			<description>Minor improvements for Portuguese translations.</description>
 		</release>
-	</plugin>
-</plugins>
+	</plugind>
+</pluginds>
