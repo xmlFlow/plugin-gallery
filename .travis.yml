@@ -10,7 +10,5 @@ before_install:
 
 script:
   - xmllint --schema http://pkp.sfu.ca/ojs/xml/plugins.xsd ./plugins.xml --noout
-  - npm install pkp-plugin-cli
-  - pwd
-  - ls ~
-  - node ./node_modules/pkp-plugin-cli validate-releases --input $TRAVIS_BUILD_DIR/plugins.xml --output $TRAVIS_BUILD_DIR/plugins-output.txt
+  - npm install -g pkp-plugin-cli
+  - pkp-plugin validate-releases --input $TRAVIS_BUILD_DIR/plugins.xml
