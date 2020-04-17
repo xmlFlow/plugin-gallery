@@ -10,5 +10,7 @@ before_install:
 
 script:
   - xmllint --schema http://pkp.sfu.ca/ojs/xml/plugins.xsd ./plugins.xml --noout
-  - mkdir out && node ./scripts/extractPluginReleaseData.js
-  - bash ./scripts/checkMD5.sh < ./out/packages-md5sums.txt
+  - npm install pkp-plugin-cli
+  - pwd
+  - ls ~
+  - node ./node_modules/pkp-plugin-cli validate-releases --input $TRAVIS_BUILD_DIR/plugins.xml --output $TRAVIS_BUILD_DIR/plugins-output.txt
