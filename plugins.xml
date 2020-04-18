@@ -10,6 +10,14 @@
 			<institution>Public Knowledge Project</institution>
 			<email>pkp.contact@sfu.ca</email>
 		</maintainer>
+		<release date="2018-02-20" version="1.0.0.0" md5="09c6cff1b9bd544e41cd22a3ebe41088">
+			<package>https://github.com/asmecher/hypothesis/releases/download/ojs-3_0_2-0/hypothesis-ojs-3_0_2-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.0.3.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Release of the Hypothes.is plugin for OJS 3.0.2.</description>
+		</release>
 		<release date="2017-02-20" version="1.0.0.0" md5="09c6cff1b9bd544e41cd22a3ebe41088">
 			<package>https://github.com/asmecher/hypothesis/releases/download/ojs-3_0_2-0/hypothesis-ojs-3_0_2-0.tar.gz</package>
 			<compatibility application="ojs2">
