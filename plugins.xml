@@ -3061,7 +3061,7 @@
 		<name locale="en_US">PKP|PN (PKP Preservation Network) Plugin</name>
 		<homepage>https://github.com/pkp/pln</homepage>
 		<summary locale="en_US">Supports preservation of published journal content in the PKP Preservation Network.</summary>
-		<description locale="en_US"><![CDATA[<pa>This plugin enables the automatic preservation of published journal content in the <a href="https://pkp.sfu.ca/pkp-pn/">PKP Preservation Network</a> (PKP|PN).</p>]]></description>
+		<description locale="en_US"><![CDATA[<pa>This plugin enables the automatic preservation of published journal content in the <a href="https://pkp.sfu.ca/pkp-pn/">PKP Preservation Network</a> (PKP|PN).</p><p><strong>Note:</strong> This plugin requires ZipArchive support. See <a href="https://www.php.net/manual/en/zip.installation.php">https://www.php.net/manual/en/zip.installation.php</a> for details.]]></description>
 		<maintainer>
 			<name>Public Knowledge Project</name>
 			<institution>Public Knowledge Project</institution>
