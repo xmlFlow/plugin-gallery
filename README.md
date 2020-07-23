@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kabaros/plugin-gallery.svg?branch=master)](https://travis-ci.org/kabaros/plugin-gallery)
+[![Build Status](https://travis-ci.org/pkp/plugin-gallery.svg?branch=master)](https://travis-ci.org/pkp/plugin-gallery)
 
 # Plugin Gallery
 
