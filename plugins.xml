@@ -1613,7 +1613,8 @@
 		<name locale="en_US">Classic</name>
 		<homepage>https://github.com/pkp/classic</homepage>
 		<summary locale="en_US">An official theme that plays on colour and font contrasts based on literary classicism.</summary>
-		<description locale="en_US"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>An official theme for OJS 3.1.1.2+ designed with a classic style.</p>
+<p>Classic theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
 			<name>Vitaliy Bezsheiko</name>
 			<institution>Public Knowledge Project</institution>
@@ -1689,7 +1690,8 @@
 		<name locale="en_US">Health Sciences</name>
 		<homepage>https://github.com/pkp/healthSciences</homepage>
 		<summary locale="en_US">An official theme designed to maximize legibility and content clarity.</summary>
-		<description locale="en_US"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>An official theme designed for health science journals or any journal that wants a clean, modern appearance. The theme features a light grey-blue color scheme that evokes medical settings, but the color can be changed to fit any journal's needs.</p>
+<p>Health Sciences theme was designed and developed by Sophy Ouch, Nate Wright, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
 			<name>Vitaliy Bezsheiko</name>
 			<institution>Public Knowledge Project</institution>
@@ -1983,7 +1985,8 @@
 		<name locale="en_US">Immersion</name>
 		<homepage>https://github.com/pkp/immersion</homepage>
 		<summary locale="en_US">An official theme focused on full-page visuals, large typefaces, and bold color blocks.</summary>
-		<description locale="en_US"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>The Immersion theme emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices. This theme may work best for arts and culture journals which want to present a more ambitious visual profile.</p>
+<p>Immersion theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>]]></description>
 		<maintainer>
 			<name>Vitalii Bezsheiko</name>
 			<institution>Public Knowledge Project</institution>
@@ -2990,6 +2993,7 @@
 		<summary locale="en_US">An official theme for OJS 3.</summary>
 		<description locale="en_US"><![CDATA[
 			<p>A minimalist OJS theme inspired by early periodicals’ tables of contents featuring a bold use of a monochromatic colour palette.</p>
+			<p>Pragma theme was designed and developed by Sophy Ouch, Vitalii Bezsheiko, John Willinsky, and Kevin Stranack.</p>
 		]]></description>
 		<maintainer>
 			<name>Sophy Ouch</name>
