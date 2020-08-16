@@ -1972,7 +1972,6 @@
 			<certification type="official"/>
 			<description>OJS 3.1 (V2.4.1.0) Final substance texture version release</description>
 		</release>
-
 	</plugin>
 	<plugin category="generic" product="crossrefReferenceLinking">
 		<name locale="en_US">Crossref Reference Linking Plugin</name>
