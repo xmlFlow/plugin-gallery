@@ -2466,8 +2466,8 @@
 			<institution>University of Pittsburgh</institution>
 			<email>uls-systemsdevelopment@pitt.edu</email>
 		</maintainer>
-		<release date="2019-04-22" version="1.3.0.0" md5="05030eac0d4b7daa14b26febbf4b5571">
-			<package>https://github.com/ulsdevteam/ojs-plum-plugin/releases/download/v1.3.0-0/plumAnalytics-1.3.0.0.tar.gz</package>
+		<release date="2020-07-03" version="1.3.0.1" md5="ba720f0e04a79c7e379623a506e0454d">
+			<package>https://github.com/ulsdevteam/ojs-plum-plugin/releases/download/v1.3.0-1/plumAnalytics-1.3.0.1.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.1.1.4</version>
 				<version>3.1.2.0</version>
