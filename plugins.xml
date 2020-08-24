@@ -2890,6 +2890,20 @@
 			<certification type="reviewed"/>
 			<description>Initial release</description>
 		</release>
+		<release date="2020-08-24" version="1.0.0.1" md5="54a0a65d76b85bc4328f507fd8d49308">
+			<package>https://github.com/RBoelter/twitterBlock/releases/download/v1_0_0-1/twitterBlock-v1_0_0-1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2.4</version>
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Added a message to remind administrators to make an appropriate entry in the cookie policy.</description>
+		</release>
 	</plugin>
 	<plugin category="blocks" product="announcementsBlock">
 		<name locale="en_US">Announcements Block</name>
