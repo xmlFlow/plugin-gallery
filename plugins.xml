@@ -1584,6 +1584,18 @@
 			<certification type="official" />
 			<description>Compatibility release for OJS 3.1.2.</description>
 		</release>
+		<release date="2019-08-25" version="3.1.2.6" md5="f2b74cc23a4bf15ca57bdccb83d1693f">
+			<package>https://github.com/NateWr/bootstrap3/releases/download/v3_1_2-6/bootstrap3-v3_1_2-6.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This releases fixes an error with the edit links which appear on the about us, contact and other pages.</description>
+		</release>
 		<release date="2020-02-27" version="3.2.0.0" md5="c3d1efa61915f532745e83efe53c27fc">
 			<package>https://github.com/NateWr/bootstrap3/releases/download/3.2.0/bootstrap3-3.2.0.0.tar.gz</package>
 			<compatibility application="ojs2">
@@ -1607,6 +1619,19 @@
 			</compatibility>
 			<certification type="official" />
 			<description>This release fixes an error when journals are not publishing open access. It also removes the next and previous page navigation on the issue archives page when all issues fit on one page.</description>
+		</release>
+		<release date="2020-08-25" version="3.2.0.2" md5="89124ce3481246fa58ace3ba0f3d0e87">
+			<package>https://github.com/NateWr/bootstrap3/releases/download/v3_2_0-2/bootstrap3-v3_2_0-2.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+				<version>3.2.0.3</version>
+				<version>3.2.1.0</version>
+				<version>3.2.1.1</version>
+			</compatibility>
+			<certification type="official" />
+			<description>This release fixes an error with the edit links for content like the about us and contact pages.</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
