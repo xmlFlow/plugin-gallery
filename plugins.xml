@@ -2311,6 +2311,18 @@
 			<certification type="official"/>
 			<description>Maintenance release for OJS/OPS 3.2.1. (Different API help texts) </description>
 		</release>
+		<release date="2020-10-27" version="1.1.1.5" md5="5923ab76f6e33f10ac00d8ead848078f">
+			<package>https://github.com/pkp/orcidProfile/releases/download/v1.1.1-5/orcidProfile-v1.1.1-5.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.1.2.0</version>
+				<version>3.1.2.1</version>
+				<version>3.1.2.2</version>
+				<version>3.1.2.3</version>
+				<version>3.1.2.4</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Maintenance release for OJS 3.1.2.</description>
+		</release>
 
 	</plugin>
 	<plugin category="generic" product="defaultTranslation">
